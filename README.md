@@ -1,4 +1,4 @@
-# finance-dasnboard
+# finance-dashboard
 This project is a Finance Dashboard Web Application developed as part of a Frontend Intern screening assignment.
 
 It demonstrates core frontend skills including state management, UI design, data visualization, and role-based rendering using React.
