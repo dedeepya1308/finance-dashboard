@@ -29,18 +29,30 @@ Build a responsive dashboard that allows users to:
 
      
 ## Functionalities:
-  1.Search by category
-  2.Filter by type
-  3.Edit & Delete transactions
-  4.Add / Edit Transactions
-  5.Input form for adding new transactions
-  6.Edit existing transactions
-  7.Form validation included
-  8.Conditional UI rendering for better UX
-  9.Role-Based UI (Simulated):
-     Viewer: Can only view data,
-     Admin:Can add, edit, and delete transactions,
-  10.Role switching is handled via a dropdown (frontend simulation).
+
+1. Search by category
+
+2. Filter by type (Income / Expense)
+
+3. Edit and delete transactions
+
+4. Add / Edit Transactions
+
+5. Input form for adding new transactions
+
+6. Edit existing transactions
+
+7. Form validation included
+
+8. Conditional UI rendering for better UX
+
+9. Role-Based UI (Simulated):
+
+   * Viewer: Can only view data
+   * Admin: Can add, edit, and delete transactions
+
+10. Role switching is handled via a dropdown (frontend simulation)
+
 
 ## State & Persistence
 State managed using:
