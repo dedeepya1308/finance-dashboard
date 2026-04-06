@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+
+.container {
+  padding: 20px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card:nth-child(1) {
+  background: linear-gradient(135deg, #4e73df, #224abe); /* Balance */
+}
+
+.card:nth-child(2) {
+  background: linear-gradient(135deg, #1cc88a, #17a673); /* Income */
+}
+
+.card:nth-child(3) {
+  background: linear-gradient(135deg, #e74a3b, #c0392b); /* Expenses */
+}
+
+
+.charts {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.chart-box {
+  width: 50%;
+  height: 300px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #4e73df;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2e59d9;
+}
+
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: #4e73df;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #f8f9fc;
+}
+
+tr:hover {
+  background: #eef1f7;
+}
+
+
+.insights {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-left: 6px solid #4e73df;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.insights h3 {
+  color: #4e73df;
+}
+
+.dark {
+  background-color: #1e1e2f;
+  color: white;
+}
+
+.dark .card {
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+
+.dark .card:nth-child(1) {
+  background: linear-gradient(135deg, #5a67d8, #434190);
+}
+
+
+.dark .card:nth-child(2) {
+  background: linear-gradient(135deg, #00c897, #009e74);
+}
+
+
+.dark .card:nth-child(3) {
+  background: linear-gradient(135deg, #ff6b6b, #c0392b);
+}
+
+.dark .chart-box,
+.dark .form-box,
+.dark .insights {
+  background: #2c2c3e;
+  color: white;
+}
+
+.dark table {
+  background: #2b2d42;
+  color: #eaeaf0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dark th {
+  background: #3a3f5c;
+  color: #ffffff;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.dark td {
+  padding: 10px;
+  text-align: center;
+}
+
+.dark tr:nth-child(even) {
+  background: #353756;
+}
+
+.dark tr:nth-child(odd) {
+  background: #2b2d42;
+}
+
+.dark tr:hover {
+  background: #44476a;
+  transition: 0.2s;
+}
+
+.dark td span.income {
+  color: #00ff9d;
+  font-weight: bold;
+}
+
+.dark td span.expense {
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.dark button {
+  background: #5a67d8;
+  color: white;
+}
+
+.dark button:hover {
+  background: #434190;
+}
